@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
 # Inherit from selene device
-$(call inherit-product, device/tecno/corfu/device.mk)
+$(call inherit-product, device/motorola/corfu/device.mk)
 
 # Inherit some common twrp stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
